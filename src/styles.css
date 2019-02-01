@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: #f8f9f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recipe-btn{
+    background: #e67e22;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 2px;
+    border-bottom: 4px solid #b45b0d;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.recipe-btn:hover{
+    color: #000;
+}
+.recipe-list-heading{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.recipe-name{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e67e22;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;  
+    cursor: pointer;
+}
+.recipe-desc{
+    margin: 5px 0;
+    font-size: 14px;
+    color: #000;    
+    text-align: justify;
+}

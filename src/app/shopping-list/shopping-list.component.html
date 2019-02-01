@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-12">
+    <div class="row">
+      <div class="col-5">
+          <h1 class="recipe-list-heading">Shopping List:</h1>
+        <div class="shopping-list-holder" *ngFor="let ingredient of ingredientsList">
+          <div href="#">
+            <div class="row">
+              <div class="col-6">
+                <div class="name" >
+                  Item: {{ingredient.name}}
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="amount">
+                  Amount: ({{ingredient.amount}})
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-7">
+        <app-shopping-edit></app-shopping-edit>
+
+      </div>
+    </div>
+
+  </div>
+</div>

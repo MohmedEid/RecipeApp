@@ -1,0 +1,14 @@
+
+
+.list-holder{
+    box-shadow: 0px 2px 4px #ddd;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.list-holder .img-holder img{
+    width: 100%;
+}

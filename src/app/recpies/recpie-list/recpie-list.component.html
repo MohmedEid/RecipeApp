@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-12">
+        <h1 class="recipe-list-heading">All Recipe List:</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <app-recpie-item *ngFor="let item of recpieList" [i]="item">
+        </app-recpie-item>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <button class="btn  btn-block recipe-btn">New Recipe</button>
+    </div>
+</div>

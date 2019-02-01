@@ -1,0 +1,35 @@
+<h1 class="recipe-list-heading">Recipe Details:</h1>
+<section class="recipe-details-holder">
+  <div class="row">
+    <div class="col-12">
+      <div class="img-holder">
+        <img [src]= "recipeDetails.imagePath" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-9">
+          <h4 class="recipe-name">{{recipeDetails.name}}</h4>
+          <article class="recipe-desc">Description: {{recipeDetails.description}}
+            cook it in you</article>
+          <article class="recipe-desc">Ingredient: Start with a skillet and finish with a slow cooker. A saute of onion, garlic and ground beef is</article>
+        </div>
+        <div class="col-3">
+          <div class="btn-group btn-block" appDropdown>
+            <a class="nav-link recipe-btn  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Manage
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Add To Shopping List</a>
+              <a class="dropdown-item" href="#">Edit Recpie</a>
+              <a class="dropdown-item" href="#">delete Recpie</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+<div class="list-holder clearfix">
+    <div (click)= "onItemSelected()">
+      <div class="row">
+          <div class="col-3">
+              <div class="img-holder">
+                  <img [src]="i.imagePath" alt="{{i.name}}">
+              </div>
+          </div>
+          <div class="col-9">
+              <div class="caption-holder">
+                  <h4 class="recipe-name">{{ i.name }}</h4>
+                  <p class="recipe-desc">{{ i.description }}</p>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>    
