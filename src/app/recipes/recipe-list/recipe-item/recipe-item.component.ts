@@ -1,16 +1,16 @@
 import { RecipeService } from './../../../shared/service/recipe.service';
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { allRecpies } from '../../recpies.model';
+import { allrecipes } from '../../recipes.model';
 
 @Component({
-  selector: 'app-recpie-item',
-  templateUrl: './recpie-item.component.html',
-  styleUrls: ['./recpie-item.component.css']
+  selector: 'app-recipe-item',
+  templateUrl: './recipe-item.component.html',
+  styleUrls: ['./recipe-item.component.css']
 })
-export class RecpieItemComponent implements OnInit {
+export class recipeItemComponent implements OnInit {
   
   @Input()
-  i: allRecpies;
+  i: allrecipes;
 
   constructor(private recipeService:RecipeService) { }
   onItemSelected(){

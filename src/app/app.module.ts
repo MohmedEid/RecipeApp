@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { RecpiesComponent } from './recpies/recpies.component';
-import { RecpieListComponent } from './recpies/recpie-list/recpie-list.component';
-import { RecpieItemComponent } from './recpies/recpie-list/recpie-item/recpie-item.component';
-import { RecpieDetailsComponent } from './recpies/recpie-details/recpie-details.component';
+import { recipesComponent } from './recipes/recipes.component';
+import { recipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { recipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
+import { recipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { HeaderComponent } from './header/header.component';
@@ -15,10 +15,10 @@ import { DropdownDirective } from './shared/directive/dropdown.directive';
 @NgModule({
   declarations: [
     AppComponent,
-    RecpiesComponent,
-    RecpieListComponent,
-    RecpieItemComponent,
-    RecpieDetailsComponent,
+    recipesComponent,
+    recipeListComponent,
+    recipeItemComponent,
+    recipeDetailsComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
     HeaderComponent,
